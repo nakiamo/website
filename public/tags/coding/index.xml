@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coding on naimcinar</title>
+    <link>/tags/coding/</link>
+    <description>Recent content in Coding on naimcinar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 19 Aug 2021 16:55:03 +0300</lastBuildDate><atom:link href="/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting user access token on GitHub.com</title>
+      <link>/posts/personal-access-token-github/</link>
+      <pubDate>Thu, 19 Aug 2021 16:55:03 +0300</pubDate>
+      
+      <guid>/posts/personal-access-token-github/</guid>
+      <description>Reminder to myself
+GitHub.com removed its support for password authentication on August 13, 2021. Now I need to use a personal access token instead on VS Code. These are the steps to setup GitHub auth. with personal access token:
+ Create personal access token on Github page: Settings / Developer Settings / Personal Access Tokens Set the current directory on command line to your Project root: 1  &amp;gt; cd C:\Users\MyProject   Run this command: 1 2  &amp;gt; git remote set-url youroriginname https://yourusername:pastetokenhere@github.</description>
+    </item>
+    
+    <item>
+      <title>Adding Netlify CMS to an existing Hugo Site</title>
+      <link>/posts/adding-netlify-cms/</link>
+      <pubDate>Thu, 25 Feb 2021 22:05:14 +0300</pubDate>
+      
+      <guid>/posts/adding-netlify-cms/</guid>
+      <description>I built this web site with Hugo and host it on Netlify. I use Visual Studio Code to make all the editing on my local repository and to push to/pull from my remote repository on GitHub. I&amp;rsquo;m a beginner so this process helped me alot to learn the basic of Markdown and Git. It&amp;rsquo;s fun to update the website content following these steps but sometimes it can be frustrating. At those times, I really miss the user interface of content management systems such as Wordpress.</description>
+    </item>
+    
+    <item>
+      <title>Getting YouTube Data with R using Tuber: Download YouTube Comments</title>
+      <link>/posts/download-youtube-data-in-r/</link>
+      <pubDate>Thu, 23 Apr 2020 00:06:40 +0300</pubDate>
+      
+      <guid>/posts/download-youtube-data-in-r/</guid>
+      <description>Enable APIs    The first step is to enable APIs on Google API Console. You need a Google account to do this.
+ Click on +ENABLE APIS AND SERVICES Type &amp;lsquo;Youtube&amp;rsquo; on the search bar. You will see four options (Youtube Data API v3, Youtube Analytics API, Youtube Ads Reach API and Youtube Reporting API). Enable all of them. Type &amp;lsquo;Freebase API&amp;rsquo; on the search bar and enable it, too.</description>
+    </item>
+    
+    <item>
+      <title> Datacamp for the classroom</title>
+      <link>/posts/datacamp-in-the-classroom/</link>
+      <pubDate>Wed, 25 Mar 2020 21:00:10 +0300</pubDate>
+      
+      <guid>/posts/datacamp-in-the-classroom/</guid>
+      <description>I give theoretical and prectical lessons on advertising which is in a constant state of flux. Therefore, I always try to update the content of my courses to stay relevant. Emerging technologies, current consumer trends, transformations in the media landscape, are always at the core of my lectures. Our students need to master new skills to guarantee a successful career in the media and data science is definetly one of those skılls.</description>
+    </item>
+    
+  </channel>
+</rss>
