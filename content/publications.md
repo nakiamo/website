@@ -6,7 +6,7 @@ draft: false
 
 ## ARTICLES
 
-+ UPCOMING Çınar, N. (2022) R ile Twitter verisi analizi: Veri toplama, sosyal ağ analizi ve metin analizi aşamaları
++ UPCOMING Çınar, N. (2022) R ile Twitter verisi analizi: Veri toplama, sosyal ağ analizi ve metin analizi aşamaları (Analysis of Twitter Data with R: Data Collection, Social Network Analysis, and Text Analysis Stages).
 
 + Çınar, N. (2018) [An evaluation of source effects in consumer generated ads](http://www.unav.es/fcom/communication-society/en/resumen.php?art_id=667)
 Communication & Society
