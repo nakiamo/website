@@ -1,6 +1,7 @@
-aseURL = "http://www.naimcinar.com"
+baseURL = "http://www.naimcinar.com"
 title = "naimcinar"
 googleAnalytics = "UA-189160203-1"
+enableEmoji = true
 
 theme = "hugo-coder"
 

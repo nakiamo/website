@@ -18,7 +18,7 @@
     <meta property="og:title" content="Adding Netlify CMS to an existing Hugo Site" />
 <meta property="og:description" content="I built this web site with Hugo and host it on Netlify. I use Visual Studio Code to make all the editing on my local repository and to push to/pull from my remote repository on GitHub. I&rsquo;m a beginner so this process helped me alot to learn the basic of Markdown and Git. It&rsquo;s fun to update the website content following these steps but sometimes it can be frustrating. At those times, I really miss the user interface of content management systems such as Wordpress." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/adding-netlify-cms/" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="http://www.naimcinar.com/posts/adding-netlify-cms/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-02-25T22:05:14+03:00" />
 <meta property="article:modified_time" content="2021-02-25T22:05:14+03:00" />
 
@@ -29,7 +29,7 @@
 </title>
 
     
-      <link rel="canonical" href="/posts/adding-netlify-cms/">
+      <link rel="canonical" href="http://www.naimcinar.com/posts/adding-netlify-cms/">
     
 
     
@@ -108,7 +108,7 @@
             </li>
           
             <li class="navigation-item">
-              <a class="navigation-link" href="/https:/naimcinar.myportfolio.com/">Photography</a>
+              <a class="navigation-link" href="https://naimcinar.myportfolio.com/">Photography</a>
             </li>
           
             <li class="navigation-item">
@@ -138,7 +138,7 @@
       <header>
         <div class="post-title">
           <h1 class="title">
-            <a class="title-link" href="/posts/adding-netlify-cms/">
+            <a class="title-link" href="http://www.naimcinar.com/posts/adding-netlify-cms/">
               Adding Netlify CMS to an existing Hugo Site
             </a>
           </h1>
@@ -174,7 +174,7 @@
 <a href="https://gohugo.io/tools/frontends/" target="_blank" rel="noopener">frontend interfaces with a Hugo Website</a>. I tried to integrate Netlify CMS with my website since I already use Netlify services.</p>
 <p>There is a detailed explanation about 
 <a href="https://www.netlifycms.org/docs/add-to-your-site/" target="_blank" rel="noopener">how to set up Netlify CMS on an existing Hugo website</a> or 
-<a href="https://www.netlifycms.org/docs/start-with-a-template/" target="_blank" rel="noopener">starting with a template</a> on Netlif website. I went with the &ldquo;start with a template&rdquo; option first and it worked smoothly, but it creates the website with a built in theme and I couldn&rsquo;t manage to change the theme after building the web site. Besides, I already have a static web site built with Hugo and I want to integrate a CMS with it. It took some time for me to understand the whole process from the guidelines on the website, that&rsquo;s why I decided to note each step here in case if I forget it again :smile:</p>
+<a href="https://www.netlifycms.org/docs/start-with-a-template/" target="_blank" rel="noopener">starting with a template</a> on Netlif website. I went with the &ldquo;start with a template&rdquo; option first and it worked smoothly, but it creates the website with a built in theme and I couldn&rsquo;t manage to change the theme after building the web site. Besides, I already have a static web site built with Hugo and I want to integrate a CMS with it. It took some time for me to understand the whole process from the guidelines on the website, that&rsquo;s why I decided to note each step here in case if I forget it again 😄</p>
 <p><strong>Step 1</strong>: Create a folder called <code>admin</code> inside the <code>static</code> folder in your local repository.</p>
 <p><strong>Step 2</strong>: Inside the <code>admin</code> folder, create two files: <code>index.html</code> and <code>config.yml</code> . The first file <code>admin/index.html</code> is an entry point to Netlify CMS. You will access the CMS interface from <code>yourwebsite.com/admin</code> (in my case it is <code>naimcinar.com/admin/</code>) when everyhing is ready.</p>
 <p><strong>Step 3</strong>: Paste this code in <code>index.html</code> and save. This HTML starter page will load the Netlify CMS Javascript file:

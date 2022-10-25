@@ -2,46 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>naimcinar</title>
-    <link>/</link>
+    <link>http://www.naimcinar.com/</link>
     <description>Recent content on naimcinar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 21 Oct 2022 11:15:09 +0300</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Oct 2022 11:15:09 +0300</lastBuildDate><atom:link href="http://www.naimcinar.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>New Book Chapter: Data Privacy in Digital Advertising</title>
-      <link>/posts/privacy-in-digital-advertising/</link>
+      <link>http://www.naimcinar.com/posts/privacy-in-digital-advertising/</link>
       <pubDate>Fri, 21 Oct 2022 11:15:09 +0300</pubDate>
       
-      <guid>/posts/privacy-in-digital-advertising/</guid>
+      <guid>http://www.naimcinar.com/posts/privacy-in-digital-advertising/</guid>
       <description>Our new book chapter with Sezgin Ateş &amp;ldquo;Data Privacy in Digital Advertising: Towards a Post Third-Party Cookie Era&amp;rdquo; is published as a part of the new book series from Routledge: &amp;ldquo;Algorithms and Society&amp;rdquo;. The chapter analyzes the methods by which user behaviors are tracked online for the delivery of personalized advertising and have their personal data commodified in the marketplace. The technologies employed inevitably lead to privacy violations and regulations often do not keep up with the fast pace of these technical developments which allow for ever more effective web tracking and surveillance.</description>
     </item>
     
     <item>
       <title>Research</title>
-      <link>/research/</link>
+      <link>http://www.naimcinar.com/research/</link>
       <pubDate>Fri, 10 Jun 2022 15:54:33 +0300</pubDate>
       
-      <guid>/research/</guid>
+      <guid>http://www.naimcinar.com/research/</guid>
       <description>&amp;ldquo;Başlat&amp;rdquo; butonuna tıklayarak anket formuna ulaşabilirsiniz. Çok teşekkürler.
 Başlat </description>
     </item>
     
     <item>
       <title>Dijital Reklamcılıkta Teori ve Araştırma</title>
-      <link>/teaching/dijital-reklam-teori-arastirma/</link>
+      <link>http://www.naimcinar.com/teaching/dijital-reklam-teori-arastirma/</link>
       <pubDate>Sun, 27 Feb 2022 20:39:08 +0300</pubDate>
       
-      <guid>/teaching/dijital-reklam-teori-arastirma/</guid>
+      <guid>http://www.naimcinar.com/teaching/dijital-reklam-teori-arastirma/</guid>
       <description>Level: MA in advertising and Public Relations, Compulsory
  Read the weekly lesson plan</description>
     </item>
     
     <item>
       <title>Setting user access token on GitHub.com</title>
-      <link>/posts/personal-access-token-github/</link>
+      <link>http://www.naimcinar.com/posts/personal-access-token-github/</link>
       <pubDate>Thu, 19 Aug 2021 16:55:03 +0300</pubDate>
       
-      <guid>/posts/personal-access-token-github/</guid>
+      <guid>http://www.naimcinar.com/posts/personal-access-token-github/</guid>
       <description>Reminder to myself
 GitHub.com removed its support for password authentication on August 13, 2021. Now I need to use a personal access token instead on VS Code. These are the steps to setup GitHub auth. with personal access token:
  Create personal access token on Github page: Settings / Developer Settings / Personal Access Tokens Set the current directory on command line to your Project root: 1  &amp;gt; cd C:\Users\MyProject   Run this command: 1 2  &amp;gt; git remote set-url youroriginname https://yourusername:pastetokenhere@github.</description>
@@ -49,37 +49,37 @@ GitHub.com removed its support for password authentication on August 13, 2021. N
     
     <item>
       <title>Bitirme Projesi</title>
-      <link>/teaching/bitirme-projesi/</link>
+      <link>http://www.naimcinar.com/teaching/bitirme-projesi/</link>
       <pubDate>Thu, 25 Feb 2021 22:10:30 +0300</pubDate>
       
-      <guid>/teaching/bitirme-projesi/</guid>
+      <guid>http://www.naimcinar.com/teaching/bitirme-projesi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dijital Çağda Reklam</title>
-      <link>/teaching/dijital-cagda-reklam/</link>
+      <link>http://www.naimcinar.com/teaching/dijital-cagda-reklam/</link>
       <pubDate>Thu, 25 Feb 2021 22:08:10 +0300</pubDate>
       
-      <guid>/teaching/dijital-cagda-reklam/</guid>
+      <guid>http://www.naimcinar.com/teaching/dijital-cagda-reklam/</guid>
       <description>Read the weekly lesson plan</description>
     </item>
     
     <item>
       <title>Adding Netlify CMS to an existing Hugo Site</title>
-      <link>/posts/adding-netlify-cms/</link>
+      <link>http://www.naimcinar.com/posts/adding-netlify-cms/</link>
       <pubDate>Thu, 25 Feb 2021 22:05:14 +0300</pubDate>
       
-      <guid>/posts/adding-netlify-cms/</guid>
+      <guid>http://www.naimcinar.com/posts/adding-netlify-cms/</guid>
       <description>I built this web site with Hugo and host it on Netlify. I use Visual Studio Code to make all the editing on my local repository and to push to/pull from my remote repository on GitHub. I&amp;rsquo;m a beginner so this process helped me alot to learn the basic of Markdown and Git. It&amp;rsquo;s fun to update the website content following these steps but sometimes it can be frustrating. At those times, I really miss the user interface of content management systems such as Wordpress.</description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>/publications/</link>
+      <link>http://www.naimcinar.com/publications/</link>
       <pubDate>Thu, 25 Feb 2021 21:35:15 +0300</pubDate>
       
-      <guid>/publications/</guid>
+      <guid>http://www.naimcinar.com/publications/</guid>
       <description>ARTICLES      UPCOMING Çınar, N. (2022) R ile Twitter verisi analizi: Veri toplama, sosyal ağ analizi ve metin analizi aşamaları (Analysis of Twitter Data with R: Data Collection, Social Network Analysis, and Text Analysis Stages).
   Çınar, N. (2018) An evaluation of source effects in consumer generated ads Communication &amp;amp; Society 31 (1), 147-167
   Çınar, N (2016) Understanding the Motives for Joining Ethnic Online Communities A Study of Turks in Norway Journal of Yasar University 11(42), 67-76</description>
@@ -87,86 +87,86 @@ GitHub.com removed its support for password authentication on August 13, 2021. N
     
     <item>
       <title>Advertising Project</title>
-      <link>/teaching/advertising-project/</link>
+      <link>http://www.naimcinar.com/teaching/advertising-project/</link>
       <pubDate>Thu, 25 Feb 2021 21:34:16 +0300</pubDate>
       
-      <guid>/teaching/advertising-project/</guid>
+      <guid>http://www.naimcinar.com/teaching/advertising-project/</guid>
       <description>Put course materials here.
 2020-21 Fall Semester: The open source book project created by the classroom Future Scenarios: Classroom&amp;rsquo;s Perspective</description>
     </item>
     
     <item>
       <title>International Projects</title>
-      <link>/teaching/international-projects/</link>
+      <link>http://www.naimcinar.com/teaching/international-projects/</link>
       <pubDate>Thu, 25 Feb 2021 21:33:26 +0300</pubDate>
       
-      <guid>/teaching/international-projects/</guid>
+      <guid>http://www.naimcinar.com/teaching/international-projects/</guid>
       <description>Read the weekly lesson plan</description>
     </item>
     
     <item>
       <title>New Book Project: Future Scenarios</title>
-      <link>/posts/future-scenarios-book/</link>
+      <link>http://www.naimcinar.com/posts/future-scenarios-book/</link>
       <pubDate>Mon, 08 Feb 2021 12:17:49 +0300</pubDate>
       
-      <guid>/posts/future-scenarios-book/</guid>
+      <guid>http://www.naimcinar.com/posts/future-scenarios-book/</guid>
       <description>RHI460 Advertising Project is aimed for senior students and an applied course where students develop innovative ideas that might serve the future needs and expectations of consumers. Eventually, they make video presentation of the project and submit it to Cannes Future Lions Creativity Competition. This year, I had to make some changes. First of all, I moved the class online but then I realized that it&amp;rsquo;s really hard when it&amp;rsquo;s not face to face.</description>
     </item>
     
     <item>
       <title>Getting YouTube Data with R using Tuber: Download YouTube Comments</title>
-      <link>/posts/download-youtube-data-in-r/</link>
+      <link>http://www.naimcinar.com/posts/download-youtube-data-in-r/</link>
       <pubDate>Thu, 23 Apr 2020 00:06:40 +0300</pubDate>
       
-      <guid>/posts/download-youtube-data-in-r/</guid>
+      <guid>http://www.naimcinar.com/posts/download-youtube-data-in-r/</guid>
       <description>Enable APIs    The first step is to enable APIs on Google API Console. You need a Google account to do this.
  Click on +ENABLE APIS AND SERVICES Type &amp;lsquo;Youtube&amp;rsquo; on the search bar. You will see four options (Youtube Data API v3, Youtube Analytics API, Youtube Ads Reach API and Youtube Reporting API). Enable all of them. Type &amp;lsquo;Freebase API&amp;rsquo; on the search bar and enable it, too.</description>
     </item>
     
     <item>
       <title>I&#39;m learning R programming language</title>
-      <link>/posts/learning-r/</link>
+      <link>http://www.naimcinar.com/posts/learning-r/</link>
       <pubDate>Thu, 26 Mar 2020 22:00:12 +0300</pubDate>
       
-      <guid>/posts/learning-r/</guid>
-      <description>I&amp;rsquo;m trying to learn R programming language through an excellent online course on datacamp.com and it&amp;rsquo;s a lot of fun. This is my second attempt of writing code after the classic &amp;ldquo;Hello World&amp;rdquo;. I know that I&amp;rsquo;m in the very beginning of this journey but I want to leave this code here as a milestone :grimacing:
+      <guid>http://www.naimcinar.com/posts/learning-r/</guid>
+      <description>I&amp;rsquo;m trying to learn R programming language through an excellent online course on datacamp.com and it&amp;rsquo;s a lot of fun. This is my second attempt of writing code after the classic &amp;ldquo;Hello World&amp;rdquo;. I know that I&amp;rsquo;m in the very beginning of this journey but I want to leave this code here as a milestone 😬
 1 2 3 4 5 6 7 8 9 10 11   # Count how many times a specific word was repeated in a text rquote &amp;lt;- &amp;#34;Add text here &amp;#34; words &amp;lt;- strsplit(rquote, &amp;#34; &amp;#34;) [[1]] rcount &amp;lt;- 0 for(word in words) {  if(word == &amp;#34;add word here&amp;#34;) {  rcount &amp;lt;- rcount + 1  } } rcount   </description>
     </item>
     
     <item>
       <title> Datacamp for the classroom</title>
-      <link>/posts/datacamp-in-the-classroom/</link>
+      <link>http://www.naimcinar.com/posts/datacamp-in-the-classroom/</link>
       <pubDate>Wed, 25 Mar 2020 21:00:10 +0300</pubDate>
       
-      <guid>/posts/datacamp-in-the-classroom/</guid>
+      <guid>http://www.naimcinar.com/posts/datacamp-in-the-classroom/</guid>
       <description>I give theoretical and prectical lessons on advertising which is in a constant state of flux. Therefore, I always try to update the content of my courses to stay relevant. Emerging technologies, current consumer trends, transformations in the media landscape, are always at the core of my lectures. Our students need to master new skills to guarantee a successful career in the media and data science is definetly one of those skılls.</description>
     </item>
     
     <item>
       <title>Conducting human interaction experiments on networks with Breadboard</title>
-      <link>/posts/breadboard-software/</link>
+      <link>http://www.naimcinar.com/posts/breadboard-software/</link>
       <pubDate>Mon, 04 Nov 2019 16:55:21 +0300</pubDate>
       
-      <guid>/posts/breadboard-software/</guid>
+      <guid>http://www.naimcinar.com/posts/breadboard-software/</guid>
       <description>Lately, I’ve been following the web site of Yale Institute for Network Science’s website Human Nature Lab. It’s a great source to follow the latest academic studies on networks. Even better, they develop and share open source software for all of us to use. One of them is, Trellis; a suite of software tools for conducting social network analysis, but today I would like to talk about Breadboard. It is a software for developing and conducting human interaction experiments on networks.</description>
     </item>
     
     <item>
       <title>My students&#39; project becomes a Cannes Future Lions finalist</title>
-      <link>/posts/futurelions-finalists/</link>
+      <link>http://www.naimcinar.com/posts/futurelions-finalists/</link>
       <pubDate>Sat, 18 May 2019 22:24:05 +0300</pubDate>
       
-      <guid>/posts/futurelions-finalists/</guid>
+      <guid>http://www.naimcinar.com/posts/futurelions-finalists/</guid>
       <description>In my &amp;ldquo;Advertising Project&amp;rdquo; lecture, the students form groups and create a project for Cannes Future Lions competition. This year, Abdullah Görgeç, Beyza Hava and Burak Koşar created &amp;ldquo;Volvo - Animal Safety&amp;rdquo; and it become a finalist in the competition. Congratulations to them!
  Volvo Animal Safety     </description>
     </item>
     
     <item>
       <title>Future Lions Competition: A selection of my students&#39; entries</title>
-      <link>/posts/future-lions/</link>
+      <link>http://www.naimcinar.com/posts/future-lions/</link>
       <pubDate>Thu, 09 May 2019 18:27:47 +0300</pubDate>
       
-      <guid>/posts/future-lions/</guid>
+      <guid>http://www.naimcinar.com/posts/future-lions/</guid>
       <description>Imagining the Future    In collaboration with Cannes Lions International Festival of Creativity, Future Lions is the annual worldwide competition that challenges students to create the future. The brief of the competition is simple:
  Connect an audience of your choosing to a product or service from a global brand in a way that wasn’t possible three years ago.
  The main focus of my “Advertising Project” lecture is on the future consumer and technology trends.</description>
@@ -174,19 +174,19 @@ GitHub.com removed its support for password authentication on August 13, 2021. N
     
     <item>
       <title>Biography</title>
-      <link>/about/</link>
+      <link>http://www.naimcinar.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/about/</guid>
+      <guid>http://www.naimcinar.com/about/</guid>
       <description>Naim Çınar is an assistant professor in the Department of Advertising and Public Relations at Faculty of Communication Sciences, Anadolu University. He also has professional experience as an art director in the advertising industry. His research interests include emerging technology and consumer trends that are shaping the future of advertising; user-generated content; visual content online.</description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>/contact/</link>
+      <link>http://www.naimcinar.com/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/contact/</guid>
+      <guid>http://www.naimcinar.com/contact/</guid>
       <description>Follow me, @naimcinar.</description>
     </item>
     

@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on naimcinar</title>
-    <link>/tags/</link>
+    <link>http://www.naimcinar.com/tags/</link>
     <description>Recent content in Tags on naimcinar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 21 Oct 2022 11:15:09 +0300</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Oct 2022 11:15:09 +0300</lastBuildDate><atom:link href="http://www.naimcinar.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Education</title>
-      <link>/tags/education/</link>
+      <link>http://www.naimcinar.com/tags/education/</link>
       <pubDate>Fri, 21 Oct 2022 11:15:09 +0300</pubDate>
       
-      <guid>/tags/education/</guid>
+      <guid>http://www.naimcinar.com/tags/education/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Research</title>
-      <link>/tags/research/</link>
+      <link>http://www.naimcinar.com/tags/research/</link>
       <pubDate>Fri, 21 Oct 2022 11:15:09 +0300</pubDate>
       
-      <guid>/tags/research/</guid>
+      <guid>http://www.naimcinar.com/tags/research/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Coding</title>
-      <link>/tags/coding/</link>
+      <link>http://www.naimcinar.com/tags/coding/</link>
       <pubDate>Thu, 19 Aug 2021 16:55:03 +0300</pubDate>
       
-      <guid>/tags/coding/</guid>
+      <guid>http://www.naimcinar.com/tags/coding/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Reminder</title>
-      <link>/tags/reminder/</link>
+      <link>http://www.naimcinar.com/tags/reminder/</link>
       <pubDate>Thu, 19 Aug 2021 16:55:03 +0300</pubDate>
       
-      <guid>/tags/reminder/</guid>
+      <guid>http://www.naimcinar.com/tags/reminder/</guid>
       <description></description>
     </item>
     
