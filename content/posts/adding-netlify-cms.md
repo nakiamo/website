@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2021-02-25T22:05:14+03:00
-title = "Adding Netlify CMS to an existing Hugo Site"
+title = "Adding Netlify CMS to an existing Hugo site"
 description = ""
 slug = ""
 authors = []

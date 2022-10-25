@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2019-05-09T18:27:47+03:00
-title = "Future Lions Competition: A selection of my students' entries"
+title = "Future Lions competition: A selection of my students' entries"
 description = ""
 slug = "" 
 tags = []
