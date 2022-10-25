@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2022-10-21T11:15:09+03:00
-title = "New Book Chapter: Data Privacy in Digital Advertising"
+title = "New book chapter: Data privacy in digital advertising"
 description = ""
 slug = ""
 authors = []

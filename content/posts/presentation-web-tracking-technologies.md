@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2022-10-25T15:23:38+03:00
-title = "Presentation: Transformation of Web tracking Technologies"
+title = "Presentation: Transformation of web tracking technologies"
 description = ""
 slug = ""
 authors = []
