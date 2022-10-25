@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on naimcinar</title>
-    <link>http://www.naimcinar.com/authors/</link>
+    <link>https://www.naimcinar.com/authors/</link>
     <description>Recent content in Authors on naimcinar</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="http://www.naimcinar.com/authors/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://www.naimcinar.com/authors/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
