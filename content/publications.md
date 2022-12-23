@@ -23,7 +23,11 @@ draft: false
 
 ## BOOK CHAPTERS
 
++ Çınar, N. (2022) [Gelecekler çalışmaları ve öngörü üzerine (On futures studies and anticipation)](https://www.researchgate.net/publication/366186595_Gelecekler_Calismalari_ve_Ongoru_Uzerine), *İletişim ve Medya Alanında Uluslararası Araştırmalar*. Eğitim Yayınevi.
+
 + Çınar, N. & Ateş, S. (2022) [Data Privacy in digital advertising: towards a post third-party cookie era](https://www.taylorfrancis.com/chapters/edit/10.4324/9781003173335-3/data-privacy-digital-advertising-naim-çınar-sezgin-ateş) In M. Filimowicz (Ed.), *Privacy: Algorithms and Society*. New York: Routledge
+
++ Çınar, N. (2021) [Aktif izleyici perspektifinden kullanıcının ürettiği içerik ve katılımcı internet(Understanding user generated content and participative web from the perspective of active audience theory)](https://www.researchgate.net/publication/354719242_Aktif_Izleyici_Perspektifinden_Kullanicinin_Urettigi_Icerik_ve_Katilimci_Internet), *A'dan Z'ye İletişim Çalışmaları-3*. İksad Yayınevi.
 
 + Çınar, N. (2020) [The rise of consumer generated content and its transformative effect on the future of advertising](https://www.taylorfrancis.com/books/e/9781351015431/chapters/10.4324/9781351015431-12) In M. Filimowicz & V. Tzankova (Eds.), *Reimagining communication: Mediation*. New York: Routledge
 
