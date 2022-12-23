@@ -6,19 +6,19 @@ draft: false
 
 ## ARTICLES
 
-+ UPCOMING Çınar, N. (2022) R ile Twitter verisi analizi: Veri toplama, sosyal ağ analizi ve metin analizi aşamaları (Analysis of Twitter Data with R: Data Collection, Social Network Analysis, and Text Analysis Stages).
++ Çınar, N. (2023) R ile Twitter verisi analizi: Veri toplama, sosyal ağ analizi ve metin analizi aşamaları (Analysis of Twitter Data with R: Data Collection, Social Network Analysis, and Text Analysis Stages). *The Turkish Online Journal of Design Art and Communication*, 13 (1).
 
 + Çınar, N. (2018) [An evaluation of source effects in consumer generated ads](http://www.unav.es/fcom/communication-society/en/resumen.php?art_id=667)
-Communication & Society
+*Communication & Society*
 31 (1), 147-167
 
 
 + Çınar, N (2016) [Understanding the Motives for Joining Ethnic Online Communities A Study of Turks in Norway](http://journal.yasar.edu.tr/wp-content/uploads/2016/08/Nisan-2016-Say%C4%B1s%C4%B1.pdf)
-Journal of Yasar University
+*Journal of Yasar University*
 11(42), 67-76
 
 + Çınar, N. & Uztuğ, F. (2015) [Tüketicilerin yaşadıkları olumsuz satın alma deneyimlerine tepkileri: intikam mı, misilleme mi? Consumer reactions to negative purchase experiences: revenge or retaliation](https://dergipark.org.tr/e-gifder/article/98553) (*in Turkish*)
-E-Gifder
+*E-Gifder*
 3(2), 40-56
 
 ## BOOK CHAPTERS
