@@ -6,7 +6,7 @@ draft: false
 
 ## ARTICLES
 
-+ Çınar, N. (2023) R ile Twitter verisi analizi: Veri toplama, sosyal ağ analizi ve metin analizi aşamaları (Analysis of Twitter Data with R: Data Collection, Social Network Analysis, and Text Analysis Stages). *The Turkish Online Journal of Design Art and Communication*, 13 (1).
++ Çınar, N. (2023) [R ile Twitter verisi analizi: Veri toplama, sosyal ağ analizi ve metin analizi aşamaları (Analysis of Twitter Data with R: Data Collection, Social Network Analysis, and Text Analysis Stages)](https://dergipark.org.tr/tr/download/article-file/2785743). *The Turkish Online Journal of Design Art and Communication*, 13 (1).
 
 + Çınar, N. (2018) [An evaluation of source effects in consumer generated ads](http://www.unav.es/fcom/communication-society/en/resumen.php?art_id=667)
 *Communication & Society*
