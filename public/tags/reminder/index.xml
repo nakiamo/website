@@ -15,7 +15,7 @@
       <guid>https://www.naimcinar.com/posts/personal-access-token-github/</guid>
       <description>Reminder to myself
 GitHub.com removed its support for password authentication on August 13, 2021. Now I need to use a personal access token instead on VS Code. These are the steps to setup GitHub auth. with personal access token:
- Create personal access token on Github page: Settings / Developer Settings / Personal Access Tokens Set the current directory on command line to your Project root: 1  &amp;gt; cd C:\Users\MyProject   Run this command: 1 2  &amp;gt; git remote set-url youroriginname https://yourusername:pastetokenhere@github.</description>
+Create personal access token on Github page: Settings / Developer Settings / Personal Access Tokens Set the current directory on command line to your Project root: 1 &amp;gt; cd C:\Users\MyProject Run this command: 1 2 &amp;gt; git remote set-url youroriginname https://yourusername:pastetokenhere@github.</description>
     </item>
     
   </channel>
