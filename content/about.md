@@ -5,4 +5,10 @@ draft: false
 
 {{< figure src="/images/naim-cinar-about.png" >}}
 
-Naim Çınar is an assistant professor in the Department of Advertising and Public Relations at Faculty of Communication Sciences, Anadolu University. He also has professional experience as an art director in the advertising industry. His research interests include emerging technology and consumer trends that are shaping the future of advertising; user-generated content; visual content online. 
+I am an assistant professor in the Department of Advertising and Public Relations at Faculty of Communication Sciences, Anadolu University. Prior to this, I worked as a graphic designer in the advertising industry. My research interests include online communities, visual communication, computational social science, and emerging technology and consumer trends.
+
+You can reach me at the following email addresses:
+
+naimcinar [ at ] gmail.com
+
+naimcinar [ at ] anadolu.edu.tr
