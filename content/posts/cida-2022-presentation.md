@@ -7,6 +7,6 @@ slug = ""
 authors = []
 tags = ["Education", "Research", "Turkish"]
 categories = []
-externalLink = "https://bookdown.org/connect/#/apps/fdbe31bc-2826-4ca7-a4f1-afd5e54862d3/access"
+externalLink = "https://bookdown.org/naimcinar/cida-2022/"
 series = []
 +++
