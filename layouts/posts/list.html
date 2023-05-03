@@ -16,5 +16,19 @@
     </ul>
 
     {{ partial "pagination.html" . }}
+    <ul>
+      <b>All Categories & Tags:</b>
+      <div>
+        <i class="fa fa-folder" aria-hidden="true"></i>&nbsp
+        {{ range .Site.Taxonomies.categories }}
+          <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> ({{ .Count }})
+        {{ end }}
+        <br>
+        <i class="fa fa-tag" aria-hidden="true"></i>&nbsp
+        {{ range .Site.Taxonomies.tags }}
+          <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> ({{ .Count }})
+        {{ end }}
+      </div>
+    </ul>
   </section>
 {{ end }}
