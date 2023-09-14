@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2021-02-08T12:17:49+03:00
-title = "New book project: Future scenarios"
+title = "New book project with my students: Future scenarios"
 description = ""
 slug = "" 
 tags = []
