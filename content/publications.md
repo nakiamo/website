@@ -6,6 +6,8 @@ draft: false
 
 ## ARTICLES
 
++ Akarsu, H. & Çınar, N. (2023) [Akıllı Telefondan Düşünümsel Bağ Koparma Ölçeği: Uyarlama, Geçerlik ve Güvenirlik Çalışması (Reflective Smartphone Disengagement Scale: Scale Adaptation, Validity and Reliability)](https://dergipark.org.tr/en/pub/ikad/issue/81592/1350214). *İletişim Kuram ve Araştırma Dergisi*, 65.
+
 + Çınar, N. (2023) [R ile Twitter verisi analizi: Veri toplama, sosyal ağ analizi ve metin analizi aşamaları (Analysis of Twitter Data with R: Data Collection, Social Network Analysis, and Text Analysis Stages)](https://dergipark.org.tr/tr/download/article-file/2785743). *The Turkish Online Journal of Design Art and Communication*, 13 (1). 
 > [Also available as a Quarto web page](https://bookdown.org/naimcinar/r_ile_twitter_verisi_analizi/article-quarto.html)
 
@@ -25,6 +27,10 @@ draft: false
 3(2), 40-56
 
 ## BOOK CHAPTERS
+
++ Çınar, N. & Görgülü, B. [Digital Activism and Hashtag Feminism](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4381080), *International Academic Research and Reviews in social, Human and Administrative Sciences - March 2023*. Serüven Yayınevi.
+
++ Çınar, N. (2023). [Reklamda Toplumsal Cinsiyet ve Femvertising (Gender in Advertising and Femvertising)](https://www.researchgate.net/profile/Naim-Cinar/publication/369827455_Reklamda_Toplumsal_Cinsiyet_ve_Femvertising/links/642eab4020f25554da136f74/Reklamda-Toplumsal-Cinsiyet-ve-Femvertising.pdf), *Dijital Dünyada Reklamcılık ve Sinema". Eğitim Yayınevi.
 
 + Çınar, N. (2022) [Gelecekler çalışmaları ve öngörü üzerine (On futures studies and anticipation)](https://www.researchgate.net/publication/366186595_Gelecekler_Calismalari_ve_Ongoru_Uzerine), *İletişim ve Medya Alanında Uluslararası Araştırmalar*. Eğitim Yayınevi.
 
