@@ -5,6 +5,8 @@ enableEmoji = true
 
 theme = "hugo-coder"
 
+enableGitInfo = true
+
 languageCode = "en"
 defaultContentLanguage = "en"
 
