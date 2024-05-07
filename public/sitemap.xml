@@ -2,10 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.naimcinar.com/categories/</loc>
-    <lastmod>2024-05-07T20:52:26+03:00</lastmod>
-  </url><url>
-    <loc>https://www.naimcinar.com/categories/education/</loc>
+    <loc>https://www.naimcinar.com/tags/education/</loc>
     <lastmod>2024-05-07T20:52:26+03:00</lastmod>
   </url><url>
     <loc>https://www.naimcinar.com/posts/future-lions-2024/</loc>
@@ -17,16 +14,13 @@
     <loc>https://www.naimcinar.com/posts/</loc>
     <lastmod>2024-05-07T20:52:26+03:00</lastmod>
   </url><url>
+    <loc>https://www.naimcinar.com/tags/</loc>
+    <lastmod>2024-05-07T20:52:26+03:00</lastmod>
+  </url><url>
     <loc>https://www.naimcinar.com/posts/cida-2022-presentation/</loc>
     <lastmod>2023-05-02T15:33:22+03:00</lastmod>
   </url><url>
-    <loc>https://www.naimcinar.com/tags/education/</loc>
-    <lastmod>2023-05-02T15:33:22+03:00</lastmod>
-  </url><url>
     <loc>https://www.naimcinar.com/tags/research/</loc>
-    <lastmod>2023-05-02T15:33:22+03:00</lastmod>
-  </url><url>
-    <loc>https://www.naimcinar.com/tags/</loc>
     <lastmod>2023-05-02T15:33:22+03:00</lastmod>
   </url><url>
     <loc>https://www.naimcinar.com/tags/turkish/</loc>
@@ -110,6 +104,8 @@
     <loc>https://www.naimcinar.com/authors/</loc>
   </url><url>
     <loc>https://www.naimcinar.com/about/</loc>
+  </url><url>
+    <loc>https://www.naimcinar.com/categories/</loc>
   </url><url>
     <loc>https://www.naimcinar.com/contact/</loc>
   </url><url>

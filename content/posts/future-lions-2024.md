@@ -5,8 +5,8 @@ title = "Future Lions 2024 - Submissions from the classroom"
 description = ""
 slug = ""
 authors = []
-tags = []
-categories = ["Education"]
+tags = ["Education"]
+categories = []
 externalLink = ""
 series = []
 +++
