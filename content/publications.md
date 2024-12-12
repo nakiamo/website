@@ -6,6 +6,8 @@ draft: false
 
 ## ARTICLES
 
++ Yahya, A., & Çınar, N. (2024). [Revealing the hidden: The effect of advertisement disclosure on heavy and light Instagram users’ influencer avoidance](https://www.tandfonline.com/doi/full/10.1080/13527266.2024.2413919). *Journal of Marketing Communications*, 1-29. [https://doi.org/10.1080/13527266.2024.2413919](https://doi.org/10.1080/13527266.2024.2413919)
+
 + Akarsu, H. & Çınar, N. (2023) [Akıllı Telefondan Düşünümsel Bağ Koparma Ölçeği: Uyarlama, Geçerlik ve Güvenirlik Çalışması (Reflective Smartphone Disengagement Scale: Scale Adaptation, Validity and Reliability)](https://dergipark.org.tr/en/pub/ikad/issue/81592/1350214). *İletişim Kuram ve Araştırma Dergisi*, 65.
 
 + Çınar, N. (2023) [R ile Twitter verisi analizi: Veri toplama, sosyal ağ analizi ve metin analizi aşamaları (Analysis of Twitter Data with R: Data Collection, Social Network Analysis, and Text Analysis Stages)](https://dergipark.org.tr/tr/download/article-file/2785743). *The Turkish Online Journal of Design Art and Communication*, 13 (1). 
