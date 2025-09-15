@@ -1,7 +1,7 @@
 baseURL = "https://www.naimcinar.com"
 title = "naimcinar"
 # Google Analytics 4 (GA4) - Direct integration
-googleAnalytics = "G-XXXXXXXXXX"  # Replace with your GA4 Measurement ID
+# googleAnalytics = "G-XXXXXXXXXX"  # Replace with your GA4 Measurement ID
 enableEmoji = true
 
 theme = "hugo-coder"
