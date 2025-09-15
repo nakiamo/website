@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research on naimcinar</title>
+    <link>https://www.naimcinar.com/tags/research/</link>
+    <description>Recent content in Research on naimcinar</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 02 May 2023 15:33:22 +0300</lastBuildDate>
+    <atom:link href="https://www.naimcinar.com/tags/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[TR] Sosyal Ağ Analizi ile Kadın Cinayetlerindeki Politik Kutuplaşmayı Keşfetmek - CIDA 2022 Sunum</title>
+      <link>https://www.naimcinar.com/posts/cida-2022-presentation/</link>
+      <pubDate>Tue, 02 May 2023 15:33:22 +0300</pubDate>
+      <guid>https://www.naimcinar.com/posts/cida-2022-presentation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>[TR] R ile Twitter Verisi Analizi: Veri Toplama, Sosyal Ağ Analizi ve Metin Analizi Aşamaları</title>
+      <link>https://www.naimcinar.com/posts/r-ile-twitter-verisi-analizi/</link>
+      <pubDate>Thu, 29 Dec 2022 14:49:10 +0300</pubDate>
+      <guid>https://www.naimcinar.com/posts/r-ile-twitter-verisi-analizi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Presentation: Transformation of web tracking technologies</title>
+      <link>https://www.naimcinar.com/posts/presentation-web-tracking-technologies/</link>
+      <pubDate>Tue, 25 Oct 2022 15:23:38 +0300</pubDate>
+      <guid>https://www.naimcinar.com/posts/presentation-web-tracking-technologies/</guid>
+      <description>&lt;p&gt;Here is the recording of my online presentation on &amp;ldquo;Transformation of Web Tracking Technologies and Key Challenges in Data Privacy&amp;rdquo; at Communication in the Millenium (CIM) Symposium.&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/tfNbXYOaDbg?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>New book chapter: Data privacy in digital advertising</title>
+      <link>https://www.naimcinar.com/posts/privacy-in-digital-advertising/</link>
+      <pubDate>Fri, 21 Oct 2022 11:15:09 +0300</pubDate>
+      <guid>https://www.naimcinar.com/posts/privacy-in-digital-advertising/</guid>
+      <description>&lt;p&gt;Our new book chapter with Sezgin Ateş &amp;ldquo;Data Privacy in Digital Advertising: Towards a Post Third-Party Cookie Era&amp;rdquo; is published as a part of the new book series from Routledge: &amp;ldquo;Algorithms and Society&amp;rdquo;. The chapter analyzes the methods by which user behaviors are tracked online for the delivery of personalized advertising and have their personal data commodified in the marketplace. The technologies employed inevitably lead to privacy violations and regulations often do not keep up with the fast pace of these technical developments which allow for ever more effective web tracking and surveillance.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

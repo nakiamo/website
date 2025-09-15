@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+  Adding Netlify CMS to an existing Hugo site · naimcinar
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Naim Cinar">
+<meta name="description" content="I built this web site with Hugo and host it on Netlify. I use Visual Studio Code to make all the editing on my local repository and to push to/pull from my remote repository on GitHub. I&rsquo;m a beginner so this process helped me alot to learn the basic of Markdown and Git. It&rsquo;s fun to update the website content following these steps but sometimes it can be frustrating. At those times, I really miss the user interface of content management systems such as Wordpress.">
+<meta name="keywords" content="blog,academic,advertising,personal">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Adding Netlify CMS to an existing Hugo site">
+  <meta name="twitter:description" content="I built this web site with Hugo and host it on Netlify. I use Visual Studio Code to make all the editing on my local repository and to push to/pull from my remote repository on GitHub. I’m a beginner so this process helped me alot to learn the basic of Markdown and Git. It’s fun to update the website content following these steps but sometimes it can be frustrating. At those times, I really miss the user interface of content management systems such as Wordpress.">
+
+<meta property="og:url" content="https://www.naimcinar.com/posts/adding-netlify-cms/">
+  <meta property="og:site_name" content="naimcinar">
+  <meta property="og:title" content="Adding Netlify CMS to an existing Hugo site">
+  <meta property="og:description" content="I built this web site with Hugo and host it on Netlify. I use Visual Studio Code to make all the editing on my local repository and to push to/pull from my remote repository on GitHub. I’m a beginner so this process helped me alot to learn the basic of Markdown and Git. It’s fun to update the website content following these steps but sometimes it can be frustrating. At those times, I really miss the user interface of content management systems such as Wordpress.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2021-02-25T22:05:14+03:00">
+    <meta property="article:modified_time" content="2021-02-25T22:05:14+03:00">
+    <meta property="article:tag" content="Coding">
+    <meta property="article:tag" content="Education">
+
+
+
+
+<link rel="canonical" href="https://www.naimcinar.com/posts/adding-netlify-cms/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.022594d625780e2edf64581b893d32cb35c11de5d88953ea4ad3c2e45451e214.css" integrity="sha256-AiWU1iV4Di7fZFgbiT0yyzXBHeXYiVPqStPC5FRR4hQ=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css" integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="https://www.naimcinar.com/">
+      naimcinar
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="https://naimc.myportfolio.com">Photography</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/teaching/">Teaching</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/publications/">Publications</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/contact/">Contact</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://www.naimcinar.com/posts/adding-netlify-cms/">
+              Adding Netlify CMS to an existing Hugo site
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2021-02-25T22:05:14&#43;03:00">
+                February 25, 2021
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              6-minute read
+            </span>
+          </div>
+          
+          
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/coding/">Coding</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/education/">Education</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <p>I built this web site with Hugo and host it on Netlify. I use Visual Studio Code to make all the editing on my local repository and to push to/pull from my remote repository on GitHub. I&rsquo;m a beginner so this process helped me alot to learn the basic of Markdown and Git. It&rsquo;s fun to update the website content following these steps but sometimes it can be frustrating. At those times, I really miss the user interface of content management systems such as Wordpress.</p>
+<p>I recently learned that it is possible to integrate <a href="https://gohugo.io/tools/frontends/"  class="external-link" target="_blank" rel="noopener">frontend interfaces with a Hugo Website</a>. I tried to integrate Netlify CMS with my website since I already use Netlify services.</p>
+<p>There is a detailed explanation about <a href="https://www.netlifycms.org/docs/add-to-your-site/"  class="external-link" target="_blank" rel="noopener">how to set up Netlify CMS on an existing Hugo website</a> or <a href="https://www.netlifycms.org/docs/start-with-a-template/"  class="external-link" target="_blank" rel="noopener">starting with a template</a> on Netlif website. I went with the &ldquo;start with a template&rdquo; option first and it worked smoothly, but it creates the website with a built in theme and I couldn&rsquo;t manage to change the theme after building the web site. Besides, I already have a static web site built with Hugo and I want to integrate a CMS with it. It took some time for me to understand the whole process from the guidelines on the website, that&rsquo;s why I decided to note each step here in case if I forget it again &#x1f604;</p>
+<p><strong>Step 1</strong>: Create a folder called <code>admin</code> inside the <code>static</code> folder in your local repository.</p>
+<p><strong>Step 2</strong>: Inside the <code>admin</code> folder, create two files: <code>index.html</code> and <code>config.yml</code> . The first file <code>admin/index.html</code> is an entry point to Netlify CMS. You will access the CMS interface from <code>yourwebsite.com/admin</code> (in my case it is <code>naimcinar.com/admin/</code>) when everyhing is ready.</p>
+<p><strong>Step 3</strong>: Paste this code in <code>index.html</code> and save. This HTML starter page will load the Netlify CMS Javascript file:
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span>&lt;!<span style="color:#a6e22e">doctype</span> <span style="color:#a6e22e">html</span>&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#a6e22e">html</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#a6e22e">head</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#a6e22e">meta</span> <span style="color:#a6e22e">charset</span>=<span style="color:#e6db74">&#34;utf-8&#34;</span> <span style="color:#f92672">/</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#a6e22e">meta</span> <span style="color:#a6e22e">name</span>=<span style="color:#e6db74">&#34;viewport&#34;</span> <span style="color:#a6e22e">content</span>=<span style="color:#e6db74">&#34;width=device-width, initial-scale=1.0&#34;</span> <span style="color:#f92672">/</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#a6e22e">title</span>&gt;<span style="color:#a6e22e">Content</span> <span style="color:#a6e22e">Manager</span>&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">title</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">head</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#a6e22e">body</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;!<span style="color:#f92672">--</span> <span style="color:#a6e22e">Include</span> <span style="color:#a6e22e">the</span> <span style="color:#a6e22e">script</span> <span style="color:#a6e22e">that</span> <span style="color:#a6e22e">builds</span> <span style="color:#a6e22e">the</span> <span style="color:#a6e22e">page</span> <span style="color:#a6e22e">and</span> <span style="color:#a6e22e">powers</span> <span style="color:#a6e22e">Netlify</span> <span style="color:#a6e22e">CMS</span> <span style="color:#f92672">--</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#a6e22e">script</span> <span style="color:#a6e22e">src</span>=<span style="color:#e6db74">&#34;https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js&#34;</span>&gt;&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">script</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">body</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">html</span>&gt;</span></span></code></pre></td></tr></table>
+</div>
+</div></p>
+<p><strong>Step 4</strong>: Now let&rsquo;s move to the configuration section. This process is diffent for every site. I followed the guidelines on the web site and made minor adjustments. It worked on my web site. This is how I configured my <code>config.yml</code> file:</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#a6e22e">backend</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">name</span>: <span style="color:#a6e22e">git</span><span style="color:#f92672">-</span><span style="color:#a6e22e">gateway</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">branch</span>: <span style="color:#a6e22e">master</span> <span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#a6e22e">Branch</span> <span style="color:#a6e22e">to</span> <span style="color:#a6e22e">update</span> (<span style="color:#a6e22e">optional</span>; <span style="color:#a6e22e">defaults</span> <span style="color:#a6e22e">to</span> <span style="color:#a6e22e">master</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">publish_mode</span>: <span style="color:#a6e22e">editorial_workflow</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">media_folder</span>: <span style="color:#e6db74">&#34;static/images/uploads&#34;</span> <span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#a6e22e">Media</span> <span style="color:#a6e22e">files</span> <span style="color:#a6e22e">will</span> <span style="color:#a6e22e">be</span> <span style="color:#a6e22e">stored</span> <span style="color:#a6e22e">in</span> <span style="color:#a6e22e">the</span> <span style="color:#a6e22e">repo</span> <span style="color:#a6e22e">under</span> <span style="color:#a6e22e">static</span><span style="color:#f92672">/</span><span style="color:#a6e22e">images</span><span style="color:#f92672">/</span><span style="color:#a6e22e">uploads</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">public_folder</span>: <span style="color:#e6db74">&#34;/images/uploads&#34;</span> <span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#a6e22e">The</span> <span style="color:#a6e22e">src</span> <span style="color:#a6e22e">attribute</span> <span style="color:#66d9ef">for</span> <span style="color:#a6e22e">uploaded</span> <span style="color:#a6e22e">media</span> <span style="color:#a6e22e">will</span> <span style="color:#a6e22e">begin</span> <span style="color:#a6e22e">with</span> <span style="color:#f92672">/</span><span style="color:#a6e22e">images</span><span style="color:#f92672">/</span><span style="color:#a6e22e">uploads</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">collections</span>:
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">name</span>: <span style="color:#e6db74">&#34;posts&#34;</span> <span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#a6e22e">Used</span> <span style="color:#a6e22e">in</span> <span style="color:#a6e22e">routes</span>, <span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">g</span>., <span style="color:#f92672">/</span><span style="color:#a6e22e">admin</span><span style="color:#f92672">/</span><span style="color:#a6e22e">collections</span><span style="color:#f92672">/</span><span style="color:#a6e22e">blog</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">label</span>: <span style="color:#e6db74">&#34;posts&#34;</span> <span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#a6e22e">Used</span> <span style="color:#a6e22e">in</span> <span style="color:#a6e22e">the</span> <span style="color:#a6e22e">UI</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">folder</span>: <span style="color:#e6db74">&#34;content/posts&#34;</span> <span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#a6e22e">The</span> <span style="color:#a6e22e">path</span> <span style="color:#a6e22e">to</span> <span style="color:#a6e22e">the</span> <span style="color:#a6e22e">folder</span> <span style="color:#a6e22e">where</span> <span style="color:#a6e22e">the</span> <span style="color:#a6e22e">documents</span> <span style="color:#a6e22e">are</span> <span style="color:#a6e22e">stored</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">create</span>: <span style="color:#66d9ef">true</span> <span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#a6e22e">Allow</span> <span style="color:#a6e22e">users</span> <span style="color:#a6e22e">to</span> <span style="color:#a6e22e">create</span> <span style="color:#a6e22e">new</span> <span style="color:#a6e22e">documents</span> <span style="color:#a6e22e">in</span> <span style="color:#a6e22e">this</span> <span style="color:#a6e22e">collection</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">slug</span>: <span style="color:#e6db74">&#34;{{year}}-{{month}}-{{day}}-{{slug}}&#34;</span> <span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#a6e22e">Filename</span> <span style="color:#a6e22e">template</span>, <span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">g</span>., <span style="color:#a6e22e">YYYY</span><span style="color:#f92672">-</span><span style="color:#a6e22e">MM</span><span style="color:#f92672">-</span><span style="color:#a6e22e">DD</span><span style="color:#f92672">-</span><span style="color:#a6e22e">title</span>.<span style="color:#a6e22e">md</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">fields</span>: <span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#a6e22e">The</span> <span style="color:#a6e22e">fields</span> <span style="color:#66d9ef">for</span> <span style="color:#a6e22e">each</span> <span style="color:#a6e22e">document</span>, <span style="color:#a6e22e">usually</span> <span style="color:#a6e22e">in</span> <span style="color:#a6e22e">front</span> <span style="color:#a6e22e">matter</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">-</span> {<span style="color:#a6e22e">label</span>: <span style="color:#e6db74">&#34;Layout&#34;</span>, <span style="color:#a6e22e">name</span>: <span style="color:#e6db74">&#34;layout&#34;</span>, <span style="color:#a6e22e">widget</span>: <span style="color:#e6db74">&#34;hidden&#34;</span>, <span style="color:#66d9ef">default</span>: <span style="color:#e6db74">&#34;blog&#34;</span>}
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">-</span> {<span style="color:#a6e22e">label</span>: <span style="color:#e6db74">&#34;Title&#34;</span>, <span style="color:#a6e22e">name</span>: <span style="color:#e6db74">&#34;title&#34;</span>, <span style="color:#a6e22e">widget</span>: <span style="color:#e6db74">&#34;string&#34;</span>}
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">-</span> {<span style="color:#a6e22e">label</span>: <span style="color:#e6db74">&#34;Publish Date&#34;</span>, <span style="color:#a6e22e">name</span>: <span style="color:#e6db74">&#34;date&#34;</span>, <span style="color:#a6e22e">widget</span>: <span style="color:#e6db74">&#34;datetime&#34;</span>}
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">-</span> {<span style="color:#a6e22e">label</span>: <span style="color:#e6db74">&#34;Featured Image&#34;</span>, <span style="color:#a6e22e">name</span>: <span style="color:#e6db74">&#34;thumbnail&#34;</span>, <span style="color:#a6e22e">widget</span>: <span style="color:#e6db74">&#34;image&#34;</span>, <span style="color:#a6e22e">required</span>: <span style="color:#a6e22e">FALSE</span>}
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">-</span> {<span style="color:#a6e22e">label</span>: <span style="color:#e6db74">&#34;Body&#34;</span>, <span style="color:#a6e22e">name</span>: <span style="color:#e6db74">&#34;body&#34;</span>, <span style="color:#a6e22e">widget</span>: <span style="color:#e6db74">&#34;markdown&#34;</span>}
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">-</span> {<span style="color:#a6e22e">label</span>: <span style="color:#e6db74">&#34;Tags&#34;</span>, <span style="color:#a6e22e">name</span>: <span style="color:#e6db74">&#34;tags&#34;</span>, <span style="color:#a6e22e">widget</span>: <span style="color:#e6db74">&#34;string&#34;</span>}
+</span></span><span style="display:flex;"><span>  </span></span></code></pre></td></tr></table>
+</div>
+</div>
+<p>Based on the structure of your web site you may need to change the <code>folder:</code> source in collections. You can also decide add or a remove label based on your needs when submitting a post. I succesfully managed to add posts from the CMS interface after this setup but can&rsquo;t reach the other folders on my web site such as <code>teaching</code>. I&rsquo;ll update this step if I will learn how to make all folders visible in the Netlify CMS user interface. For now, this configuration enables me to reach and edit my blog posts and post new ones from the CMS.</p>
+<p><strong>Step 5</strong>: Our <code>index.html</code> and <code>config.yml</code> files are now ready. Let&rsquo;s move to the Authentication step. Let&rsquo;s first enable Netlify Identity and Git Gateway:</p>
+<ul>
+<li>On your Netlify account, go to <strong>Settings &gt; Identity</strong> and select <strong>Enable Identity Service</strong></li>
+<li>Under <strong>Registration preferences</strong>, select <strong>Invite Only</strong>.</li>
+<li>If you want to enable login from external providers such as Google and GitHub, check the boxes you want to use,  under <strong>External Providers</strong> section. I find it practical to log in with GitHub, so I added it.</li>
+<li>Go to <strong>Services &gt; Git Gateway</strong>, and click <strong>Enable Git Gateway</strong>. This authenticates with your Git Host and generates and APi token.</li>
+<li>Evertything is almost set up. What we need now is a frontend interface to connect. We will add the following script in two places, to include the <strong>Netlify Identity Widget</strong> on our web site:</li>
+</ul>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span>&lt;<span style="color:#a6e22e">script</span> <span style="color:#a6e22e">src</span>=<span style="color:#e6db74">&#34;https://identity.netlify.com/v1/netlify-identity-widget.js&#34;</span>&gt;&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">script</span>&gt;</span></span></code></pre></td></tr></table>
+</div>
+</div>
+<p>Add the script to the <code>&lt;head&gt;</code> of your CMS index page (<code>/admin/index.html</code></p>
+<p>Add the script <code>&lt;head&gt;</code>of your site&rsquo;s main index page, too.</p>
+<p>I added the script on these locations manually but somehow it did not work correctly. I&rsquo;m sure I did a very simple mistake which I couldn&rsquo;t yet figure out what, but if you are an amateur like me you can include the script on your web site using Netlify&rsquo;s <a href="https://docs.netlify.com/site-deploys/post-processing/snippet-injection/"  class="external-link" target="_blank" rel="noopener">Script Injection</a> feature.</p>
+<p>To use snippet injection, go to <strong>Site Settings &gt; Build &amp; Deploy &gt; Post processing</strong>. Find the <strong>Snippet Injection</strong> section and select <strong>Add Snippet</strong>. Write a name for the script in the first box (e.g. Netlify Identity Widget). Paste the script inside the second box. Choose <code>Insert before &lt;/body&gt;</code> option and save.</p>
+<p>Lastly, we will add the following script before the closing <code>&lt;body&gt;</code> tag of our website&rsquo;s main index page. This script allows user to redirect back to the <code>/admin/</code> path after comopleting the login with the Netlify Identity Widget:</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span>&lt;<span style="color:#a6e22e">script</span>&gt;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">window</span>.<span style="color:#a6e22e">netlifyIdentity</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">window</span>.<span style="color:#a6e22e">netlifyIdentity</span>.<span style="color:#a6e22e">on</span>(<span style="color:#e6db74">&#34;init&#34;</span>, <span style="color:#a6e22e">user</span> =&gt; {
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">if</span> (!<span style="color:#a6e22e">user</span>) {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">window</span>.<span style="color:#a6e22e">netlifyIdentity</span>.<span style="color:#a6e22e">on</span>(<span style="color:#e6db74">&#34;login&#34;</span>, () =&gt; {
+</span></span><span style="display:flex;"><span>          <span style="color:#a6e22e">document</span>.<span style="color:#a6e22e">location</span>.<span style="color:#a6e22e">href</span> = <span style="color:#e6db74">&#34;/admin/&#34;</span>;
+</span></span><span style="display:flex;"><span>        });
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>    });
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">script</span>&gt;</span></span></code></pre></td></tr></table>
+</div>
+</div>
+<p><strong>Step 5</strong>: Now we&rsquo;re all set. Sinca we set our registration preferences to &ldquo;Invite Only&rdquo;, we need to invite ourself as a site user. To do this, select the <strong>Identity</strong> tab from Netlify site dashboard and select the <strong>Invite Users</strong> button. Add you email adress and send an invitation. You will recevive an email. In your email, click &ldquo;accept the invitation&rdquo;. You will be directed to your website admin sign up panel. Choose a password. Now you are ready to log in to Netlify CMS.</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+        
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2019 -
+    
+    2025
+     Naim Cinar 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-XXXXXXXXXX');
+        }
+      </script>
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+</html>

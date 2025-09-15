@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+  Getting YouTube data with R using Tuber: Download YouTube comments · naimcinar
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Naim Cinar">
+<meta name="description" content="
+  Enable APIs
+  
+    
+    Link to heading
+  
+
+The first step is to enable APIs on Google API Console. You need a Google account to do this.
+
+Click on &#43;ENABLE APIS AND SERVICES
+Type &lsquo;Youtube&rsquo; on the search bar. You will see four options (Youtube Data API v3, Youtube Analytics API, Youtube Ads Reach API and Youtube Reporting API). Enable all of them.
+Type &lsquo;Freebase API&rsquo; on the search bar and enable it, too.
+
+
+  Now all the APIs are enabled. It&rsquo;s time to create your credentials.
+  
+    
+    Link to heading
+  
+
+
+Click on &lsquo;Credentials&rsquo; link on the left menu.
+Now click on &#43;CREATE CREDENTIALS and choose &lsquo;OAuth Client ID&rsquo; option. Type in some name in the box and choose &lsquo;Other&rsquo; from &lsquo;Application Type&rsquo; list and click the&rsquo;Create&rsquo; button.
+
+
+At this stage, you might get a warning message about &lsquo;OAuth consent screen&rsquo;. If that is the case, click on &lsquo;OAuth consent screen&rsquo; link on the left menu and fill in the information (application name, support email) and save.">
+<meta name="keywords" content="blog,academic,advertising,personal">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Getting YouTube data with R using Tuber: Download YouTube comments">
+  <meta name="twitter:description" content="Enable APIs Link to heading The first step is to enable APIs on Google API Console. You need a Google account to do this.
+Click on &#43;ENABLE APIS AND SERVICES Type ‘Youtube’ on the search bar. You will see four options (Youtube Data API v3, Youtube Analytics API, Youtube Ads Reach API and Youtube Reporting API). Enable all of them. Type ‘Freebase API’ on the search bar and enable it, too. Now all the APIs are enabled. It’s time to create your credentials. Link to heading Click on ‘Credentials’ link on the left menu. Now click on &#43;CREATE CREDENTIALS and choose ‘OAuth Client ID’ option. Type in some name in the box and choose ‘Other’ from ‘Application Type’ list and click the’Create’ button. At this stage, you might get a warning message about ‘OAuth consent screen’. If that is the case, click on ‘OAuth consent screen’ link on the left menu and fill in the information (application name, support email) and save.">
+
+<meta property="og:url" content="https://www.naimcinar.com/posts/download-youtube-data-in-r/">
+  <meta property="og:site_name" content="naimcinar">
+  <meta property="og:title" content="Getting YouTube data with R using Tuber: Download YouTube comments">
+  <meta property="og:description" content="Enable APIs Link to heading The first step is to enable APIs on Google API Console. You need a Google account to do this.
+Click on &#43;ENABLE APIS AND SERVICES Type ‘Youtube’ on the search bar. You will see four options (Youtube Data API v3, Youtube Analytics API, Youtube Ads Reach API and Youtube Reporting API). Enable all of them. Type ‘Freebase API’ on the search bar and enable it, too. Now all the APIs are enabled. It’s time to create your credentials. Link to heading Click on ‘Credentials’ link on the left menu. Now click on &#43;CREATE CREDENTIALS and choose ‘OAuth Client ID’ option. Type in some name in the box and choose ‘Other’ from ‘Application Type’ list and click the’Create’ button. At this stage, you might get a warning message about ‘OAuth consent screen’. If that is the case, click on ‘OAuth consent screen’ link on the left menu and fill in the information (application name, support email) and save.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2020-04-23T00:06:40+03:00">
+    <meta property="article:modified_time" content="2020-04-23T00:06:40+03:00">
+    <meta property="article:tag" content="Coding">
+    <meta property="article:tag" content="Education">
+
+
+
+
+<link rel="canonical" href="https://www.naimcinar.com/posts/download-youtube-data-in-r/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.022594d625780e2edf64581b893d32cb35c11de5d88953ea4ad3c2e45451e214.css" integrity="sha256-AiWU1iV4Di7fZFgbiT0yyzXBHeXYiVPqStPC5FRR4hQ=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css" integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="https://www.naimcinar.com/">
+      naimcinar
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="https://naimc.myportfolio.com">Photography</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/teaching/">Teaching</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/publications/">Publications</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/contact/">Contact</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://www.naimcinar.com/posts/download-youtube-data-in-r/">
+              Getting YouTube data with R using Tuber: Download YouTube comments
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2020-04-23T00:06:40&#43;03:00">
+                April 23, 2020
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              2-minute read
+            </span>
+          </div>
+          
+          
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/coding/">Coding</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/education/">Education</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <h2 id="enable-apis">
+  Enable APIs
+  <a class="heading-link" href="#enable-apis">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>The first step is to enable APIs on <a href="https://console.developers.google.com/apis/dashboard"  class="external-link" target="_blank" rel="noopener">Google API Console</a>. You need a Google account to do this.</p>
+<ul>
+<li>Click on +ENABLE APIS AND SERVICES</li>
+<li>Type &lsquo;Youtube&rsquo; on the search bar. You will see four options (Youtube Data API v3, Youtube Analytics API, Youtube Ads Reach API and Youtube Reporting API). Enable all of them.</li>
+<li>Type &lsquo;Freebase API&rsquo; on the search bar and enable it, too.</li>
+</ul>
+<h2 id="now-all-the-apis-are-enabled-its-time-to-create-your-credentials">
+  Now all the APIs are enabled. It&rsquo;s time to create your credentials.
+  <a class="heading-link" href="#now-all-the-apis-are-enabled-its-time-to-create-your-credentials">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<ul>
+<li>Click on &lsquo;Credentials&rsquo; link on the left menu.</li>
+<li>Now click on +CREATE CREDENTIALS and choose &lsquo;OAuth Client ID&rsquo; option. Type in some name in the box and choose &lsquo;Other&rsquo; from &lsquo;Application Type&rsquo; list and click the&rsquo;Create&rsquo; button.</li>
+</ul>
+<blockquote>
+<p>At this stage, you might get a warning message about &lsquo;OAuth consent screen&rsquo;. If that is the case, click on &lsquo;OAuth consent screen&rsquo; link on the left menu and fill in the information (application name, support email) and save.</p></blockquote>
+<ul>
+<li>When you create &lsquo;OAuth Client ID&rsquo; you will see a message stating that OAuth is limited to 100 sensitive scope  logins&hellip; Just ignore that message, it is nothing to worry about.</li>
+<li>You can now reach your client_id and client_secret when you click on the client ID name under OAuth 2.0 Client IDs list.</li>
+<li>One last thing, we will choose localhost to upload the data. On the &lsquo;OAuth 2.0 Client IDs list&rsquo;, you will see an edit button (small pen shape icon), click on it. You will see an &lsquo;Authorized redirect URLs&rsquo; option at the end. Write http://localhost:1410/ in the box and save.</li>
+</ul>
+<h2 id="install-tuber">
+  Install Tuber
+  <a class="heading-link" href="#install-tuber">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Tuber package enables you to &ldquo;Get comments posted on YouTube videos, information on how many times a video has been liked, search for videos with particular content, andvmuch more. You can also scrape captions from a few videos</p>
+<p>Install the latest version from CRAN
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#a6e22e">install</span>.<span style="color:#a6e22e">packages</span>(<span style="color:#e6db74">&#34;tuber&#34;</span>)</span></span></code></pre></td></tr></table>
+</div>
+</div></p>
+<p>and load the package
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#a6e22e">library</span>(<span style="color:#a6e22e">tuber</span>)</span></span></code></pre></td></tr></table>
+</div>
+</div></p>
+<h2 id="example-using-tuber-to-download-youtube-comments-of-a-video">
+  Example: Using Tuber to download YouTube comments of a video.
+  <a class="heading-link" href="#example-using-tuber-to-download-youtube-comments-of-a-video">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<ul>
+<li>Paste your client_id and client_list inside the code below.</li>
+<li>Paste the video_id of the YouTube video (<a href="https://youtu.be/liJVSwOiiwg"  class="external-link" target="_blank" rel="noopener">How to find YouTube video ID</a>)</li>
+</ul>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;"><code><span style="background-color:#3c3d38"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></span><span style="background-color:#3c3d38"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span></span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;"><code class="language-go" data-lang="go"><span style="display:flex; background-color:#3c3d38"><span><span style="color:#a6e22e">app_id</span> <span style="color:#f92672">&lt;-</span> <span style="color:#e6db74">&#34;PASTE HERE&#34;</span>
+</span></span><span style="display:flex; background-color:#3c3d38"><span><span style="color:#a6e22e">app_secret</span> <span style="color:#f92672">&lt;-</span> <span style="color:#e6db74">&#34;PASTE HERE&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">yt_oauth</span>(<span style="color:#a6e22e">app_id</span>, <span style="color:#a6e22e">app_secret</span>, <span style="color:#a6e22e">token</span> = <span style="color:#960050;background-color:#1e0010">&#39;&#39;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">get_all_comments</span>(<span style="color:#a6e22e">video_id</span> = <span style="color:#e6db74">&#34;PASTE HERE&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">comments1</span> <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">get_all_comments</span>(<span style="color:#a6e22e">video_id</span> = <span style="color:#e6db74">&#34;PASTE HERE&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">write</span>.<span style="color:#a6e22e">csv</span>(<span style="color:#a6e22e">comments1</span>, <span style="color:#a6e22e">file</span> = <span style="color:#960050;background-color:#1e0010">“</span><span style="color:#a6e22e">youtubecommments</span>.<span style="color:#a6e22e">csv</span><span style="color:#960050;background-color:#1e0010">”</span>)</span></span></code></pre></td></tr></table>
+</div>
+</div>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+        
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2019 -
+    
+    2025
+     Naim Cinar 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-XXXXXXXXXX');
+        }
+      </script>
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+</html>
