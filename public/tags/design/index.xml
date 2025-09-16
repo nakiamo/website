@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Design on naimcinar</title>
-    <link>http://localhost:1313/tags/design/</link>
+    <link>https://www.naimcinar.com/tags/design/</link>
     <description>Recent content in Design on naimcinar</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 22 Feb 2023 14:19:53 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.naimcinar.com/tags/design/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The new website of CGGSO</title>
-      <link>http://localhost:1313/posts/new-website-for-cggso/</link>
+      <link>https://www.naimcinar.com/posts/new-website-for-cggso/</link>
       <pubDate>Wed, 22 Feb 2023 14:19:53 +0300</pubDate>
-      <guid>http://localhost:1313/posts/new-website-for-cggso/</guid>
-      <description>&lt;p&gt;I created a web site for &amp;ldquo;Cultural Studies &amp;amp; Gender, Sexuality, and Women&amp;rsquo;s Studies Graduate Student Organization&amp;rdquo; at the University of Pittsburgh.&lt;/p&gt;&#xA;&lt;h3 id=&#34;httpscggsonetlifyapp&#34;&gt;&#xA;  &lt;a href=&#34;https://cggso.netlify.app&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://cggso.netlify.app&lt;/a&gt;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#httpscggsonetlifyapp&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/images/cggso-screenshot.jpg&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;I used &lt;a href=&#34;https://gohugo.io&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo&lt;/a&gt; as the static website generator. The free &lt;a href=&#34;https://github.com/zerostaticthemes/hugo-winston-theme&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Winston Theme&lt;/a&gt; was the right choice for the content. The student organziation organizes an annual graduate student conference so they needed a simple and effective conference schedule embedded on the website. After searching for the free and paid alternatives, I found out &lt;a href=&#34;https://time.ly&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Time.ly&lt;/a&gt; provides all the things we needed in their free plan.&lt;/p&gt;</description>
+      <guid>https://www.naimcinar.com/posts/new-website-for-cggso/</guid>
+      <description>&lt;p&gt;I created a web site for &amp;ldquo;Cultural Studies &amp;amp; Gender, Sexuality, and Women&amp;rsquo;s Studies Graduate Student Organization&amp;rdquo; at the University of Pittsburgh.&lt;/p&gt;&#xA;&lt;h3 id=&#34;httpscggsonetlifyapp&#34;&gt;&#xA;  &lt;a href=&#34;https://cggso.netlify.app&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://cggso.netlify.app&lt;/a&gt;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#httpscggsonetlifyapp&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://www.naimcinar.com/images/cggso-screenshot.jpg&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;I used &lt;a href=&#34;https://gohugo.io&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo&lt;/a&gt; as the static website generator. The free &lt;a href=&#34;https://github.com/zerostaticthemes/hugo-winston-theme&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Winston Theme&lt;/a&gt; was the right choice for the content. The student organziation organizes an annual graduate student conference so they needed a simple and effective conference schedule embedded on the website. After searching for the free and paid alternatives, I found out &lt;a href=&#34;https://time.ly&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Time.ly&lt;/a&gt; provides all the things we needed in their free plan.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
