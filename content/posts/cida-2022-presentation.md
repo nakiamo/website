@@ -7,6 +7,6 @@ slug = ""
 authors = []
 tags = ["Education", "Research", "Turkish"]
 categories = []
-externalLink = "https://bookdown.org/naimcinar/cida-2022/"
+externalLink = "https://nakiamo.github.io/cida-2022/cida-2022-en.html"
 series = []
 +++
