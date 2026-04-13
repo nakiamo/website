@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Turkish on naimcinar</title>
-    <link>http://localhost:1313/tags/turkish/</link>
+    <link>https://www.naimcinar.com/tags/turkish/</link>
     <description>Recent content in Turkish on naimcinar</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 02 May 2023 15:33:22 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/turkish/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.naimcinar.com/tags/turkish/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[TR] Sosyal Ağ Analizi ile Kadın Cinayetlerindeki Politik Kutuplaşmayı Keşfetmek - CIDA 2022 Sunum</title>
-      <link>http://localhost:1313/posts/cida-2022-presentation/</link>
+      <link>https://www.naimcinar.com/posts/cida-2022-presentation/</link>
       <pubDate>Tue, 02 May 2023 15:33:22 +0300</pubDate>
-      <guid>http://localhost:1313/posts/cida-2022-presentation/</guid>
+      <guid>https://www.naimcinar.com/posts/cida-2022-presentation/</guid>
       <description></description>
     </item>
     <item>
       <title>[TR] R ile Twitter Verisi Analizi: Veri Toplama, Sosyal Ağ Analizi ve Metin Analizi Aşamaları</title>
-      <link>http://localhost:1313/posts/r-ile-twitter-verisi-analizi/</link>
+      <link>https://www.naimcinar.com/posts/r-ile-twitter-verisi-analizi/</link>
       <pubDate>Thu, 29 Dec 2022 14:49:10 +0300</pubDate>
-      <guid>http://localhost:1313/posts/r-ile-twitter-verisi-analizi/</guid>
+      <guid>https://www.naimcinar.com/posts/r-ile-twitter-verisi-analizi/</guid>
       <description></description>
     </item>
   </channel>
