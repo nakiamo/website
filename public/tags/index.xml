@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on naimcinar</title>
-    <link>https://www.naimcinar.com/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on naimcinar</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 07 May 2024 20:52:26 +0300</lastBuildDate>
-    <atom:link href="https://www.naimcinar.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Education</title>
-      <link>https://www.naimcinar.com/tags/education/</link>
+      <link>http://localhost:1313/tags/education/</link>
       <pubDate>Tue, 07 May 2024 20:52:26 +0300</pubDate>
-      <guid>https://www.naimcinar.com/tags/education/</guid>
+      <guid>http://localhost:1313/tags/education/</guid>
       <description></description>
     </item>
     <item>
       <title>Research</title>
-      <link>https://www.naimcinar.com/tags/research/</link>
+      <link>http://localhost:1313/tags/research/</link>
       <pubDate>Tue, 02 May 2023 15:33:22 +0300</pubDate>
-      <guid>https://www.naimcinar.com/tags/research/</guid>
+      <guid>http://localhost:1313/tags/research/</guid>
       <description></description>
     </item>
     <item>
       <title>Turkish</title>
-      <link>https://www.naimcinar.com/tags/turkish/</link>
+      <link>http://localhost:1313/tags/turkish/</link>
       <pubDate>Tue, 02 May 2023 15:33:22 +0300</pubDate>
-      <guid>https://www.naimcinar.com/tags/turkish/</guid>
+      <guid>http://localhost:1313/tags/turkish/</guid>
       <description></description>
     </item>
     <item>
       <title>Coding</title>
-      <link>https://www.naimcinar.com/tags/coding/</link>
+      <link>http://localhost:1313/tags/coding/</link>
       <pubDate>Wed, 22 Feb 2023 14:19:53 +0300</pubDate>
-      <guid>https://www.naimcinar.com/tags/coding/</guid>
+      <guid>http://localhost:1313/tags/coding/</guid>
       <description></description>
     </item>
     <item>
       <title>Design</title>
-      <link>https://www.naimcinar.com/tags/design/</link>
+      <link>http://localhost:1313/tags/design/</link>
       <pubDate>Wed, 22 Feb 2023 14:19:53 +0300</pubDate>
-      <guid>https://www.naimcinar.com/tags/design/</guid>
+      <guid>http://localhost:1313/tags/design/</guid>
       <description></description>
     </item>
     <item>
       <title>Reminder</title>
-      <link>https://www.naimcinar.com/tags/reminder/</link>
+      <link>http://localhost:1313/tags/reminder/</link>
       <pubDate>Thu, 19 Aug 2021 16:55:03 +0300</pubDate>
-      <guid>https://www.naimcinar.com/tags/reminder/</guid>
+      <guid>http://localhost:1313/tags/reminder/</guid>
       <description></description>
     </item>
   </channel>
