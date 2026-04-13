@@ -1,7 +1,7 @@
 ---
 title: "Fulbright Visiting Scholar at Pitt + Recent Talk"
 date: 2026-04-06
-draft: true
+draft: false
 tags: ["Fulbright", "University of Pittsburgh", "talk", "data privacy", "advertising"]
 thumbnail: "images/pitt-agora-talk-poster.jpeg"
 ---
