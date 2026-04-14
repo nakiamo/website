@@ -56,8 +56,8 @@ draft: false
 
 ## DISSERTATIONS
 
-+ *Doctoral Thesis* | Çınar, N. (2015) **Tüketici tarafından üretilen reklamlarda kaynak etkisi üzerine bir değerlendirme(An evaluation of source effecrs in consumer generated ads)**, Anadolu University, Social Sciences Institute, Department of Advertising and Public Relations 
-<p>[Download](https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=WBc656i315e2eV6-EZV1oklRnaiN4zx8RmT3n94InWA63xs9f0EmgTp_R1jN8hDE)
++ *Doctoral Thesis* | Çınar, N. (2015) **Tüketici tarafından üretilen reklamlarda kaynak etkisi üzerine bir değerlendirme(An evaluation of source effecrs in consumer generated ads)**, Anadolu University, Social Sciences Institute, Department of Advertising and Public Relations
+[Download](https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=WBc656i315e2eV6-EZV1oklRnaiN4zx8RmT3n94InWA63xs9f0EmgTp_R1jN8hDE)
 
 + *Masters Thesis*  | Çınar, N. (2009) **Reklamda kullanışan görsel metaforların reklamın beğenilirliği üzerindeki etkisi(The effect of the visual metaphors on the likeability of an ad)**, Anadolu University, Social Sciences Institute, Department of Advertising and Public Relations 
-<p>[Download](https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=-Z0vbSUgrhM9fXoGkRe6Q825QDfFLZJ26wCzvHVh2OU6ZC9NRGeF-syVKAKS3_bq)
+[Download](https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=-Z0vbSUgrhM9fXoGkRe6Q825QDfFLZJ26wCzvHVh2OU6ZC9NRGeF-syVKAKS3_bq)
