@@ -89,7 +89,7 @@ disqusShortname = "www-naimcinar-com"
     name = "AnadoluUniversity"
     icon = "fa-solid fa-university fa-2x"
     weight = 2
-    url = "https://akademik.anadolu.edu.tr/naimcinar"
+    url = "https://avesis.anadolu.edu.tr/naimcinar"
   [[params.social]]
     name = "Github"
     icon = "fa-brands fa-github fa-2x"
