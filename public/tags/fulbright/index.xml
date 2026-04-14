@@ -1,7 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fulbright on naimcinar</title><link>https://www.naimcinar.com/tags/fulbright/</link><description>Recent content in Fulbright on naimcinar</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 06 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.naimcinar.com/tags/fulbright/index.xml" rel="self" type="application/rss+xml"/><item><title>Fulbright Visiting Scholar at Pitt + Recent Talk</title><link>https://www.naimcinar.com/posts/fulbright-visiting-scholar-at-pitt-agora-talk/</link><pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate><guid>https://www.naimcinar.com/posts/fulbright-visiting-scholar-at-pitt-agora-talk/</guid><description>&lt;p>I’m currently a &lt;strong>Fulbright Visiting Scholar&lt;/strong> at the &lt;strong>University of Pittsburgh (Pitt)&lt;/strong>. I started on &lt;strong>September 1, 2025&lt;/strong>, and I’ll be here for &lt;strong>one year&lt;/strong>.&lt;/p>
-&lt;p>Last week, I gave a talk at Pitt (Agora Series) titled &lt;strong>“Data Privacy and Advertising: Understanding User Consent Decisions in Data-Driven Environments.”&lt;/strong>&lt;/p>
-&lt;p>&lt;img src="https://www.naimcinar.com/images/pitt-agora-talk-poster.jpeg" alt="Talk poster">&lt;/p>
-&lt;p>You can see the department’s announcement here:&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://www.linkedin.com/posts/university-of-pittsburgh-department-of-communication_hey-everyone-the-last-agora-is-on-april-activity-7445566006934007808-t5PX?utm_source=social_share_send&amp;amp;utm_medium=member_desktop_web&amp;amp;rcm=ACoAAAZuI10B6h9K3EpxslWtLjWaDOmxHIvGga0" class="external-link" target="_blank" rel="noopener">LinkedIn post (University of Pittsburgh Department of Communication)&lt;/a>&lt;/li>
-&lt;/ul></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fulbright on naimcinar</title>
+    <link>http://localhost:1313/tags/fulbright/</link>
+    <description>Recent content in Fulbright on naimcinar</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 06 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/fulbright/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fulbright Talk: Understanding User Consent Decisions in Data-Driven Environments</title>
+      <link>http://localhost:1313/posts/fulbright-visiting-scholar-at-pitt-agora-talk/</link>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/fulbright-visiting-scholar-at-pitt-agora-talk/</guid>
+      <description>&lt;p&gt;I’m currently a &lt;strong&gt;Fulbright Visiting Scholar&lt;/strong&gt; at the &lt;strong&gt;University of Pittsburgh (Pitt)&lt;/strong&gt;. I started on &lt;strong&gt;September 1, 2025&lt;/strong&gt;, and I’ll be here for &lt;strong&gt;one year&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Last week, I gave a talk at Pitt (Agora Series) titled &lt;strong&gt;“Data Privacy and Advertising: Understanding User Consent Decisions in Data-Driven Environments.”&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/pitt-agora-talk-poster.jpeg&#34; alt=&#34;Talk poster&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;You can see the department’s announcement here:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/posts/university-of-pittsburgh-department-of-communication_hey-everyone-the-last-agora-is-on-april-activity-7445566006934007808-t5PX?utm_source=social_share_send&amp;amp;utm_medium=member_desktop_web&amp;amp;rcm=ACoAAAZuI10B6h9K3EpxslWtLjWaDOmxHIvGga0&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LinkedIn post (University of Pittsburgh Department of Communication)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2023-05-02T15:33:22+03:00
-title = "[TR] Sosyal Ağ Analizi ile Kadın Cinayetlerindeki Politik Kutuplaşmayı Keşfetmek - CIDA 2022 Sunum"
+title = "[EN] Exploring Political Polarization in Femicide Discourse through Social Network Analysis: #PınarGültekin Case - CIDA 2022 Presentation"
 description = ""
 slug = ""
 authors = []

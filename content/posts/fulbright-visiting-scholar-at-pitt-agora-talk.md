@@ -1,5 +1,5 @@
 ---
-title: "Fulbright Visiting Scholar at Pitt + Recent Talk"
+title: "Fulbright Talk: Understanding User Consent Decisions in Data-Driven Environments"
 date: 2026-04-06
 draft: false
 tags: ["Fulbright", "University of Pittsburgh", "talk", "data privacy", "advertising"]
