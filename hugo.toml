@@ -105,13 +105,6 @@ disqusShortname = "www-naimcinar-com"
     icon = "fa-brands fa-linkedin fa-2x"
     weight = 3
     url = "https://www.linkedin.com/in/naim-cinar-39116730/"
-  [[params.social]]
-    name = "RSS"
-    icon = "fa-solid fa-rss fa-2x"
-    weight = 8
-    url = "https://www.naimcinar.com/index.xml"
-    rel = "alternate"
-    type = "application/rss+xml"
 
 
 [languages]
@@ -130,11 +123,12 @@ disqusShortname = "www-naimcinar-com"
             weight = 2
             url = "posts/"
 
-            [[languages.en.menu.main]]
-            name = "Photography"
-            weight = 3
-            url = "https://naimc.myportfolio.com" 
-            target="_blank"
+            # Inactive — Adobe Portfolio link no longer works; uncomment to restore
+            # [[languages.en.menu.main]]
+            # name = "Photography"
+            # weight = 3
+            # url = "https://naimc.myportfolio.com"
+            # target = "_blank"
 
             [[languages.en.menu.main]]
             name = "Teaching"
