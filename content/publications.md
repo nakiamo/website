@@ -6,6 +6,8 @@ draft: false
 
 ## ARTICLES
 
++ **preprint** Çınar, N. & Yahya, A. (2026)  [The Privacy Paradox by Design: How Consent Environments Shape Cookie Consent Decisions](https://ssrn.com/abstract=6749282). *Available at SSRN  or http://dx.doi.org/10.2139/ssrn.6749282*
+
 + Çınar, N. & Yahya, A. (2025). [Twenty-five years of privacy in advertising: a bibliometric analysis and thematic review](https://www.tandfonline.com/doi/full/10.1080/02650487.2025.2548646). *International Journal of Advertising*, 1-37.
 [10.1080/02650487.2025.2548646](https://doi.org/10.1080/02650487.2025.2548646)
 
